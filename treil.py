@@ -102,12 +102,12 @@ html_code = """
     </div>
 
     <div class="footer">
+        <p>dibuat oleh</p>
         <p>Kelompok 13 Deep Learning</p>
         <p>Program Studi Sains Data</p>
         <p>Fakultas Sains</p> 
         <p>Institut Teknologi Sumatera</p>
         <p>2024/2025</p>
-        <p>deeplearning13project@gmail.com</p>
     </div>
 
 
