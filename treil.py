@@ -93,7 +93,7 @@ html_code = """
 
     <div>
         <img class="logo" src="https://drive.google.com/file/d/1zcK1Z8RwFCpTSK56LlD1z4fde5JoEB6p/view?usp=drive_link" alt="Logo ITE">
-        <img class="logo" src="Logo 2.png" alt="Logo ITERA">
+        <img class="logo" src="https://www.itera.ac.id/wp-content/uploads/2021/11/HOME1.png" alt="Logo ITERA">
         <img class="logo" src="Logo 3.png" alt="Logo kelompok">
     </div>
     
