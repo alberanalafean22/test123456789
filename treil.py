@@ -117,5 +117,5 @@ html_code = """
 """
 
 # Display the HTML in Streamlit
-st.components.v1.html(html_code, height=400, scrolling=False)
+st.components.v1.html(html_code, height=430, scrolling=False)
 
