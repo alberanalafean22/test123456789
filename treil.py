@@ -89,9 +89,12 @@ html_code = """
     </style>
 </head>
 <body>
+    <div>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Logo_ITERA.png/800px-Logo_ITERA.png" alt="Logo ITE">
+    </div>
     
     <h1>Deteksi Suara Burung di Taman Nasional Way Kambas</h1>
-
+    
 
     <div class="upload-form">
         <form action="/upload" method="post" enctype="multipart/form-data">
