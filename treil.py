@@ -102,9 +102,9 @@ html_code = """
     </div>
 
     <div class="footer">
-        <h2>Kelompok 13 Deep Learning</h2>
-        <h3>Program Studi Sains Data, Fakultas Sains</h3> 
-        <h3>Institut Teknologi Sumatera</h3>
+        <h2><stronng>Kelompok 13 Deep Learning</strong></h2>
+        <h3><stronng>Program Studi Sains Data, Fakultas Sains</strong></h3> 
+        <h3><stronng>Institut Teknologi Sumatera</strong></h3>
         <h3>     </h3>
         <h3>Anggota Kelompok</h3>
         <h4>Rizki Adrian Bennovry, Alber Analafean, Nabilah Andika Fitriani, Catherine Firdhasari Maulina Sinaga, Helma Lia Putri</h4>
