@@ -5,16 +5,38 @@ logo1 = "Logo 1.png"
 logo2 = "Logo 2.png"
 logo3 = "Logo 3.png"
 
-# Buat tiga kolom
-col1, col2, col3 = st.columns(3)
 
-# Tampilkan gambar di masing-masing kolom
-with col1:
-    st.image(logo1)
-with col2:
-    st.image(logo2)
-with col3:
-    st.image(logo3)
+# Hitung lebar baru (65% dari lebar asli)
+width_percent = 65
+width = int(width_percent * 100 / 100)  # Konversi ke integer
+
+# Buat HTML dengan tag img
+html_code = f"""
+<div style="display: flex; justify-content: center;">
+    <img src="{logo1}" alt="Logo 1" width="{width}">
+    <img src="{logo2}" alt="Logo 2" width="{width}">
+    <img src="{logo3}" alt="Logo 3" width="{width}">
+</div>
+"""
+
+# Tampilkan HTML di Streamlit
+st.markdown(html_code, unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def add_bg_from_url():
