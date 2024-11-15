@@ -1,11 +1,5 @@
 import streamlit as st
 
-
-
-imagebg = st.image("background.png")
-image1 = st.image("Logo 1.png")
-image2 = st.image("Logo 2.png")
-image2 = st.image("Logo 3.png")
 # HTML code as a multi-line string
 html_code = """
 <!DOCTYPE html>
@@ -18,7 +12,7 @@ html_code = """
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-image: url({imagebg});
+            background-image: url('background.png);
             background-size: cover;
             color: white;
             font-family: 'Roboto', sans-serif;
@@ -89,9 +83,9 @@ html_code = """
     <h1>Deteksi Suara Burung di Taman Nasional Way Kambas</h1>
     
     <div>
-        <img class="logo" src={image1} alt="Logo ITE">
-        <img class="logo" src={image2} alt="Logo ITERA">
-        <img class="logo" src={image3} alt="Logo kelompok">
+        <img class="logo" src='https://drive.google.com/file/d/1zcK1Z8RwFCpTSK56LlD1z4fde5JoEB6p/view?usp=drive_link' alt="Logo ITE">
+        <img class="logo" src='Logo 2.png' alt="Logo ITERA">
+        <img class="logo" src='Logo 3.png' alt="Logo kelompok">
     </div>
 
     <div class="upload-form">
