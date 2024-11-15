@@ -1,5 +1,23 @@
 import streamlit as st
 
+
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");   
+
+             background-size:   
+ cover;
+             background-position: top center;
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url()
 # HTML code as a multi-line string
 html_code = """
 <!DOCTYPE html>
