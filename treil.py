@@ -71,7 +71,7 @@ html_code = """
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
-            background-color: green;
+            background-color: blue;
             color: white;
             font-size: 16px;
             cursor: pointer;
