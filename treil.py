@@ -7,7 +7,7 @@ logo3 = "Logo 3.png"
 
 
 # Hitung lebar baru (65% dari lebar asli)
-width_percent = 65
+width_percent = 35
 width = int(width_percent * 100 / 100)  # Konversi ke integer
 
 # Buat HTML dengan tag img
