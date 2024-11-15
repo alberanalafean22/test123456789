@@ -12,7 +12,6 @@ html_code = """
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-image: url('background.png');
             background-size: cover;
             color: white;
             font-family: 'Roboto', sans-serif;
@@ -30,14 +29,7 @@ html_code = """
             border-radius: 15px;
             margin-bottom: 20px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-        }
-        .logo {
-            width: 80px;
-            margin: 10px;
-            transition: transform 0.3s;
-        }
-        .logo:hover {
-            transform: scale(1.1);
+        
         }
         .upload-form {
             background-color: rgba(255, 255, 255, 0.2);
@@ -82,12 +74,6 @@ html_code = """
 
     <h1>Deteksi Suara Burung di Taman Nasional Way Kambas</h1>
     
-    <div>
-        <img class="logo" src="Logo 1.png" alt="Logo ITE">
-        <img class="logo" src="Logo 2.png" alt="Logo ITERA">
-        <img class="logo" src="Logo 3.png" alt="Logo kelompok">
-    </div>
-
     <div class="upload-form">
         <form action="/upload" method="post" enctype="multipart/form-data">
             <input type="file" name="audio" accept="audio/*" required>
@@ -106,4 +92,5 @@ html_code = """
 """
 
 # Display the HTML in Streamlit
-st.components.v1.html(html_code, height=400, scrolling=False)
+st.components.v1.html(html_code, height=270, scrolling=True)
+
