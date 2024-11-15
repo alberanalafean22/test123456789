@@ -148,7 +148,7 @@ html_code = """
         <p><strong>Program Studi Sains Data</strong></p>
         <p><strong>Fakultas Sains</strong></p> 
         <p><strong>Institut Teknologi Sumatera</strong></p>
-        <p></strong>2024/2025</strong></p>
+        <p><strong>2024/2025</strong></p>
         <p><strong>Email: deeplearning13project@gmail.com</strong></p>
     </div>
 
