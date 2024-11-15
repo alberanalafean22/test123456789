@@ -90,6 +90,12 @@ html_code = """
 <body>
 
     <h1>Deteksi Suara Burung di Taman Nasional Way Kambas</h1>
+
+    <div>
+        <img class="logo" src="https://drive.google.com/file/d/1zcK1Z8RwFCpTSK56LlD1z4fde5JoEB6p/view?usp=drive_link" alt="Logo ITE">
+        <img class="logo" src="Logo 2.png" alt="Logo ITERA">
+        <img class="logo" src="Logo 3.png" alt="Logo kelompok">
+    </div>
     
     <div class="upload-form">
         <form action="/upload" method="post" enctype="multipart/form-data">
