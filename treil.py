@@ -1,50 +1,11 @@
 import streamlit as st
 
-# Load gambar-gambar logo
-logo1 = "Logo 1.png"
-logo2 = "Logo 2.png"
-logo3 = "Logo 3.png"
-
-
-# Hitung lebar baru (65% dari lebar asli)
-width_percent = 35
-width = int(width_percent * 100 / 100)  # Konversi ke integer
-
-# Buat HTML dengan tag img
-html_code = f"""
-<div style="display: flex; justify-content: center;">
-    <img src="{logo1}" alt="Logo 1" width="{width}">
-    <img src="{logo2}" alt="Logo 2" width="{width}">
-    <img src="{logo3}" alt="Logo 3" width="{width}">
-</div>
-"""
-
-# Tampilkan HTML di Streamlit
-st.markdown(html_code, unsafe_allow_html=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def add_bg_from_url():
     st.markdown(
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");   
+             background-image: url("https://drive.google.com/file/d/1IhyFeTISaJBNQbQXsckcs-29JB3kMKXd/view?usp=drive_link");   
 
              background-size:   
  cover;
