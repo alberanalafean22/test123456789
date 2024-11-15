@@ -105,7 +105,5 @@ html_code = """
 </html>
 """
 
-st.markdown(html_code, unsafe_allow_html=True)
-
 # Display the HTML in Streamlit
 st.components.v1.html(html_code, height=700, scrolling=True)
