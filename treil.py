@@ -121,14 +121,6 @@ html_code = """
     </style>
 </head>
 <body>
-    <div>
-        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Logo_ITERA.png/800px-Logo_ITERA.png" alt="Logo ITE">
-    </div>
-
-
-
-
-
 
 
 
