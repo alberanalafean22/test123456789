@@ -101,6 +101,11 @@ html_code = """
         </form>
     </div>
 
+    <div>
+        <img class="logo" src="https://img.notionusercontent.com/s3/prod-files-secure%2F8cc0a41b-f9e2-4d9a-89b6-094a058ad494%2Fd594354d-d217-4ab5-b188-d31cc44df70f%2F13__1_-removebg-preview.png/freeze?exp=1731781811&sig=jCv2enD3Ca5vs4_NHzkhm36X4QnRGy2YtT0XHxWYhbg" alt="Logo ITE">
+    </div>
+
+    
     <div class="footer">
         <h2><stronng>Kelompok 13 Deep Learning</strong></h2>
         <h3><stronng>Program Studi Sains Data, Fakultas Sains</strong></h3> 
@@ -108,10 +113,6 @@ html_code = """
         <h3>     </h3>
         <h3>Anggota Kelompok</h3>
         <h4>Rizki Adrian Bennovry, Alber Analafean, Nabilah Andika Fitriani, Catherine Firdhasari Maulina Sinaga, Helma Lia Putri</h4>
-    </div>
-
-    <div>
-        <img class="logo" src="https://img.notionusercontent.com/s3/prod-files-secure%2F8cc0a41b-f9e2-4d9a-89b6-094a058ad494%2Fd594354d-d217-4ab5-b188-d31cc44df70f%2F13__1_-removebg-preview.png/freeze?exp=1731781811&sig=jCv2enD3Ca5vs4_NHzkhm36X4QnRGy2YtT0XHxWYhbg" alt="Logo ITE">
     </div>
 
 
