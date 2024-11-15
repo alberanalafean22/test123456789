@@ -12,7 +12,7 @@ html_code = """
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-image: url('background.png);
+            background-image: url('background.png');
             background-size: cover;
             color: white;
             font-family: 'Roboto', sans-serif;
@@ -83,9 +83,9 @@ html_code = """
     <h1>Deteksi Suara Burung di Taman Nasional Way Kambas</h1>
     
     <div>
-        <img class="logo" src='https://drive.google.com/file/d/1zcK1Z8RwFCpTSK56LlD1z4fde5JoEB6p/view?usp=drive_link' alt="Logo ITE">
-        <img class="logo" src='Logo 2.png' alt="Logo ITERA">
-        <img class="logo" src='Logo 3.png' alt="Logo kelompok">
+        <img class="logo" src="Logo 1.png" alt="Logo ITE">
+        <img class="logo" src="Logo 2.png" alt="Logo ITERA">
+        <img class="logo" src="Logo 3.png" alt="Logo kelompok">
     </div>
 
     <div class="upload-form">
@@ -106,4 +106,4 @@ html_code = """
 """
 
 # Display the HTML in Streamlit
-st.components.v1.html(html_code, height=700, scrolling=True)
+st.components.v1.html(html_code, height=700, scrolling=False)
