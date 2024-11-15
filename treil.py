@@ -88,9 +88,6 @@ html_code = """
     </style>
 </head>
 <body>
-    <div>
-        <img class="https://raw.githubusercontent.com/alberanalafean22/test123456789/refs/heads/main/Logo%201.png" alt="Logo ITERA">
-    </div>
     
     <h1>Deteksi Suara Burung di Taman Nasional Way Kambas</h1>
 
