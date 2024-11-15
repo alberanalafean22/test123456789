@@ -1,5 +1,21 @@
 import streamlit as st
 
+# Load gambar-gambar logo
+logo1 = "Logo 1.png"
+logo2 = "Logo 2.png"
+logo3 = "Logo 3.png"
+
+# Buat tiga kolom
+col1, col2, col3 = st.columns(3)
+
+# Tampilkan gambar di masing-masing kolom
+with col1:
+    st.image(logo1)
+with col2:
+    st.image(logo2)
+with col3:
+    st.image(logo3)
+
 
 def add_bg_from_url():
     st.markdown(
