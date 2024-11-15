@@ -104,7 +104,7 @@ html_code = """
     <div class="footer">
         <p>dibuat oleh</p>
         <h2>Kelompok 13 Deep Learning</h2>
-        <h4>Rizky, Alber, Nabilah, Helma, Catherine</h4>
+        <h4>Rizki Adrian Bennovry, Alber Analafean, Nabilah Andika Fitriani, Catherine Firdhasari Maulina Sinaga, Helma Lia Putri</h4>
         <h3>Program Studi Sains Data, Fakultas Sains</h3> 
         <h3>Institut Teknologi Sumatera</h3>
     </div>
