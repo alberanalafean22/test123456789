@@ -5,7 +5,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://drive.google.com/file/d/1IhyFeTISaJBNQbQXsckcs-29JB3kMKXd/view?usp=drive_link");   
+             background-image: url("https://unsplash.com/photos/blue-and-brown-bird-on-brown-tree-trunk-DPXytK8Z59Y");   
 
              background-size:   
  cover;
