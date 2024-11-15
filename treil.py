@@ -109,7 +109,6 @@ html_code = """
         <h3><stronng>Program Studi Sains Data, Fakultas Sains</strong></h3> 
         <h3><stronng>Institut Teknologi Sumatera</strong></h3>
         <h3>ㅤ</h3>
-        <h3>ㅤ</h3>
         <h3>Anggota Kelompok</h3>
         <h4>Rizki Adrian Bennovry, Alber Analafean, Nabilah Andika Fitriani, Catherine Firdhasari Maulina Sinaga, Helma Lia Putri</h4>
     </div>
