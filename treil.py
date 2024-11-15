@@ -85,39 +85,6 @@ html_code = """
             border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
-
-        .info-box {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            width: 300px;
-            background-color: #f1f1f1;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-        }
-        .info-box img {
-            width: 50px;
-            height: 50px;
-            margin-bottom: 15px;
-        }
-        .info-box h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #333;
-        }
-        .info-box p {
-            margin: 5px 0;
-            color: #555;
-        }
-        .info-box a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        .info-box a:hover {
-            text-decoration: underline;
-        }
  
     </style>
 </head>
@@ -142,15 +109,7 @@ html_code = """
         <p>deeplearning13project@gmail.com</p>
     </div>
 
-    <div class="info-box">
-        <img src="https://sd.itera.ac.id/wp-content/uploads/2023/02/LOGO-SAINSDATA-e1675349120482.png" alt="Logo test">
-        <h2><strong>Kelompok 13 Project Deep Learning</strong></h2>
-        <p><strong>Program Studi Sains Data</strong></p>
-        <p><strong>Fakultas Sains</strong></p> 
-        <p><strong>Institut Teknologi Sumatera</strong></p>
-        <p><strong>2024/2025</strong></p>
-        <p><strong>Email: deeplearning13project@gmail.com</strong></p>
-    </div>
+
 
 </body>
 </html>
